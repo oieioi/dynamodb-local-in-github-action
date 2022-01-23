@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   some_job_using_dynamodb_local:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     # services で localhost:8000 で dynamodb-local を起動する
     services:
